@@ -19,6 +19,7 @@
 * - Get Started with Apex Triggers: https://trailhead.salesforce.com/content/learn/modules/apex_triggers/apex_triggers_intro
 * NOTE: Disable all duplicate rules in the org. This will help prevent errors in the test classes or triggers. https://help.salesforce.com/s/articleView?id=sfdo.EDA_Disable_Matching_Rules.htm&type=5
 * Click Setup, then click Setup.> From Setup, enter Matching Rules in the Quick Find box, then click Matching Rules. > Click Deactivate next all to the rule that needs to be disabled.
+*/
 
 @IsTest
 public with sharing class TriggerTest {
